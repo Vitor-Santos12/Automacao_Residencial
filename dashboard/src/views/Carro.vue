@@ -1,19 +1,19 @@
 <template>
-<div class="home">
+<div class="Carro">
 <MenuLateral />
-<HelloWorld msg="Welcome to Your Vue.js App"/>
+<EsquemaLavanderia msg="Carro"/>
 </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import EsquemaLavanderia from '@/components/EsquemaLavanderia.vue'
 import MenuLateral from '@/components/MenuLaterial.vue'
 export default {
-  name: 'HomeView',
+  name: 'CompCarro',
   components: {
-    HelloWorld,
-    MenuLateral
+    MenuLateral,
+    EsquemaLavanderia
   }
 }
 </script>
