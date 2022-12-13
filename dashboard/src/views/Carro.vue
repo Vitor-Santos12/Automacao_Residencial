@@ -1,19 +1,19 @@
 <template>
 <div class="Carro">
 <MenuLateral />
-<EsquemaLavanderia msg="Carro"/>
+<EsquemaESP32 msg="Carro"/>
 </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import EsquemaLavanderia from '@/components/EsquemaLavanderia.vue'
+import EsquemaESP32 from '@/components/EsquemaESP32.vue'
 import MenuLateral from '@/components/MenuLaterial.vue'
 export default {
   name: 'CompCarro',
   components: {
     MenuLateral,
-    EsquemaLavanderia
+    EsquemaESP32
   }
 }
 </script>

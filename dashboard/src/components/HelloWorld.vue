@@ -50,6 +50,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+body{
+  background-color: blue;
+}
 .telaprincipal{
   background-color: rgb(139, 77, 77);
   height: 85%;

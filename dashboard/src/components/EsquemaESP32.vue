@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: 'EsquemaLavanderia',
+  name: 'EsquemaESP32',
   props: {
     msg: String
   }
